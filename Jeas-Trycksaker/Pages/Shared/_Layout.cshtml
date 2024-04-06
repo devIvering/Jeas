@@ -1,0 +1,120 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bank Application</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200&family=Unbounded:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="/css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="/css/tooplate-kool-form-pack.css" rel="stylesheet">
+
+    <link href="/aos/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+          integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<!--
+
+Tooplate 2136 Kool Form Pack
+
+https://www.tooplate.com/view/2136-kool-form-pack
+
+Bootstrap 5 Form Pack Template
+
+-->
+
+<body class="bg-white">
+
+    <main>
+
+        <header class="site-header">
+            <div class="container">
+                <div class="row justify-content-between">
+
+                    <div class="col-lg-12 col-12 d-flex align-items-center">
+                        <a class="site-header-text d-flex justify-content-center align-items-center me-auto" asp-page="/Index">
+
+                            <span>
+                                Jeas Trycksaker
+                            </span>
+                        </a>
+                        <div>
+                        </div>
+                        <a class="custom-btn custom-border-btn btn" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button" aria-controls="offcanvasMenu">Kategorier</a>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+
+        <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <div class="offcanvas-body d-flex flex-column justify-content-center align-items-center">
+                <nav>
+                    <ul>
+
+                        <li class="nav-item burger-item">
+                            <a asp-page="/Categories/Clothes" class="custom-btn custom-border-btn btn">Kläder</a>
+                        </li>
+
+                        <li class="nav-item burger-item">
+                            <a asp-page="/Categories/Cups" class="custom-btn custom-border-btn btn">Koppar</a>
+                        </li>
+
+                        <li class="nav-item burger-item">
+                            <a asp-page="/Categories/Kids" class="custom-btn custom-border-btn btn">Barn</a>
+                        </li>
+
+                        <li class="nav-item burger-item">
+                            <a asp-page="/Categories/Others" class="custom-btn custom-border-btn btn">Övrigt</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        </div>
+        </div>
+        </nav>
+        </header>
+        <div class="container">
+            <div class="background-image"></div>
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+        <footer>
+            <p class="footer-text">Copyright 2024 by Jeanette Ivering</p>
+        </footer>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/js/Script.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        <script src="/aos/aos.js"></script>
+
+
+        @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

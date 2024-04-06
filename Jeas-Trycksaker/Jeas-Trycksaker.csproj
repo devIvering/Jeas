@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Jeas_Trycksaker</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\kopp-elefant.jpeg" />
+    <None Include="wwwroot\images\kopp-lejon.jpeg" />
+    <None Include="wwwroot\images\kopp-vålnad.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_0816c3cb-097f-441d-80c8-d4de99ce0651.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_0f50216e-eb12-436e-9885-e5e15f522303.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_231bf11b-f5bd-433c-8926-2a12309ee337.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_274ff593-29b6-4348-9b90-551697d17dba.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_2b2d2e53-4093-4a71-93c0-27b8c37020e9.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_2c2e0af9-8814-43d2-b885-3316398cb4a7.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_315c004a-eeee-46ba-8a29-86333ea52794.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_3db1022b-5876-4969-93ca-8d573c125b13.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_545381dc-2bae-4214-b96c-66e8849045f9.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_7172d90b-0b49-4ee1-89c3-5aeb46b88e08.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_738e8c66-92a6-45ee-9bc9-b28ecff78fe9.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_7f716e08-f4bc-41ec-8e96-d7ca294d21f2.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_8a8eb6b9-f62a-4e38-8ec4-c337cfcd5d57.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_914288cd-a0a3-4f5f-aa1a-a97937fa2d1c.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_9c6c33e5-41e6-404e-a48e-fdeab5bcee2b.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_9e6a1899-2139-4fb5-8695-e5a3b7e4f391.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_a096cf24-c498-4be2-8139-8ae87d07caf3.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_a4df59de-a489-49f8-b246-350bbf8214bd.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_ab9da636-3348-463c-9135-9318ecaba8af.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_ace30332-8fbd-4dfd-ac68-9d6e0afb22b6.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_b35a8616-75c3-4450-afe4-5aa413748936.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_c6ba9d45-28e3-43da-a48a-2e4772b516f3.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_edc25e72-33e2-43c8-87e1-5f9a0ccbbcde.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_f5339f55-23ca-4e39-b220-90e9e1b3d99a.jpeg" />
+    <None Include="wwwroot\images\Messenger_creation_fb719b5e-19eb-4577-a0c1-9fb107039379.jpeg" />
+  </ItemGroup>
+
+</Project>
