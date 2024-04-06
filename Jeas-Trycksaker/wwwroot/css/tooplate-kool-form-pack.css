@@ -15,13 +15,13 @@ Bootstrap 5 Form Pack Template
 :root {
     --body-bg-color: #181717;
     --white-color: #ffffff;
-    --primary-color: #E07A5F;
-    --secondary-color: #F2CC8F;
+    --primary-color: #191970;
+    --secondary-color: #E07A5F;
     --section-bg-color: #f0f8ff;
-    --custom-btn-bg-color: #E07A5F;
+    --custom-btn-bg-color: #191970;
     --custom-btn-bg-hover-color: #F2CC8F;
     --dark-color: #000000;
-    --p-color: #717275;
+    --p-color: #ffffff;
     --link-hover-color: #F2CC8F;
     --body-font-family: 'Poppins', sans-serif;
     --heading-font-family: 'Unbounded', sans-serif;
@@ -155,7 +155,7 @@ strong {
   CUSTOM BUTTON               
 -----------------------------------------*/
 .custom-btn {
-    background: rgba(0, 0, 0, 0.85);
+    background: #191970;
     border: 2px solid transparent;
     border-radius: var(--border-radius-large);
     color: var(--white-color);
@@ -804,8 +804,8 @@ modal {
     color: green !important;
 }
 
-.bg-white {
-    background-color: antiquewhite;
+.bg-blue {
+    background-color: royalblue;
 }
 
 .image-crop {
