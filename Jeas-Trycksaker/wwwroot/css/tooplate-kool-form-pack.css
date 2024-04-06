@@ -807,3 +807,30 @@ modal {
 .bg-white {
     background-color: antiquewhite;
 }
+
+.image-crop {
+    max-width: 70%;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.big-image {
+    max-width: 65%;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+
+
+
