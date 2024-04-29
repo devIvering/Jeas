@@ -54,14 +54,23 @@ Bootstrap 5 Form Pack Template
                             <span>
                                 Jeas Trycksaker
                             </span>
-                            <i class="fa-brands fa-facebook"></i>
-                            <i class="fa-regular fa-envelope"></i>
-                            <i class="fa-brands fa-instagram"></i>
+                            <div class="social-icon">
+                                <a href="https://www.facebook.com/profile.php?id=100062972182465">
+                                    <i class="fa-brands fa-facebook left-margin"></i>
+                                </a>
+                                <a href="mailto:jeanette.ivering@gmail.com">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </a>
+                                
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                
+                            </div>
 
                         </a>
                         <div>
                         </div>
-                        <a class="custom-btn custom-border-btn btn" asp-page="/Contact">Kontakta mig</a>
                         <a class="custom-btn custom-border-btn btn" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button" aria-controls="offcanvasMenu">Kategorier</a>
                     </div>
 
@@ -91,7 +100,7 @@ Bootstrap 5 Form Pack Template
                             <a asp-page="/Categories/Kids" class="custom-btn custom-border-btn btn burger-item">Barn</a>
                         </li>
 
-                         <li>
+                        <li>
                             <a asp-page="/Categories/Tygkasse" class="custom-btn custom-border-btn btn burger-item">Tygkassar</a>
                         </li>
 

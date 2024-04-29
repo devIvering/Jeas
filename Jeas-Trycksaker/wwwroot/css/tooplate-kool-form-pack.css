@@ -834,7 +834,7 @@ modal {
     height: auto;
     border-radius: 10px;
     overflow: hidden;
-    margin: 10px auto; /* Centrera bilder horisontellt */
+    margin: 10px auto;
     display: block;
 }
 
@@ -848,65 +848,51 @@ modal {
     margin-top: 50px;
 }
 
-/*.background-image-1 {
-    background-image: url('/images/kopp-loveyou.jpg');
-    background-repeat: no-repeat;
-    background-size: 90%;
-    background-position: center;
-    border-radius: var(--border-radius-small);
-    height: 250px;
-    width: 100%;
-    margin-top: 35px;
-    display: inline-block;
-    z-index: 1;
-}
-
-.background-image-2 {
-    background-image: url('/images/kopp-elefant.jpeg');
-    background-size: 90%;
-    margin-left: 10px;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: var(--border-radius-small);
-    height: 250px;
-    width: 100%;
-    margin-top: 35px;
-    display: inline-block;
-    z-index: 1;
-}
-
-.background-image-3 {
-    background-image: url('/images/kopp-lejon.jpeg');
-    background-size: 80%;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: var(--border-radius-small);
-    height: 250px;
-    width: 100%;
-    margin-top: 35px;
-    display: inline-block;
-    z-index: 1;
-}
-
-@keyframes buildUp {
-    0% {
-        transform: scale(0);
-        opacity: 0;
-    }
-
-    100% {
-        transform: scale(1);
-        opacity: 0.7;
-    }
-}*/
-
 .image-1, .image-2, .image-3 {
     height: 300px;
     width: 230px;
     border-radius: 20px;
+    display: inline-block;
+    margin: 0 20px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
 }
+
 
 .image-flex {
     gap: 40px;
     justify-content: center;
+}
+
+.site-header .col-lg-12 {
+    justify-content: flex-end !important;
+}
+
+.site-header .site-header-text {
+    margin-left: 20px;
+}
+
+.site-header .col-lg-12 .btn:last-child {
+    order: -1;
+}
+
+.site-header .col-lg-12 .btn {
+    margin-left: 20px;
+}
+
+
+.site-header .social-icon {
+    margin-right: 20px;
+}
+
+
+    .site-header .social-icon a {
+        margin-right: 10px;
+    }
+.social-icon {
+    display: flex;
+    gap: 20px;
+}
+
+.left-margin {
+    margin-left: 20px;
 }
