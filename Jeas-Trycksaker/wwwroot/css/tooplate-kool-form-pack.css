@@ -226,7 +226,7 @@ strong {
 
     .site-header-text span {
         margin-left: 10px;
-        color: #E07A5F;
+        color: aliceblue;
     }
 
 .site-header .social-icon {
@@ -558,7 +558,7 @@ strong {
 }
 
 .primary-color {
-    color: #E07A5F;
+    color: aliceblue;
 }
 
 .customer-search-form {
@@ -566,7 +566,7 @@ strong {
 }
 
 .header-quote, footer-text {
-    color: #E07A5F;
+    color: aliceblue;
 }
 
 .partial-nav {
@@ -597,7 +597,7 @@ strong {
 }
 
 .top-text, .index-table, .link-colour {
-    color: #E07A5F;
+    color: aliceblue;
 }
 
 .top-text {
@@ -610,7 +610,7 @@ strong {
 
 .details, .login-page {
     margin-top: 120px;
-    color: #E07A5F;
+    color: aliceblue;
 }
 
 .flex-item {
@@ -668,7 +668,7 @@ strong {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url('/images/pexels-fauxels-3184436.jpg');
+    background-image: url('/images/HD-wallpaper-blue-stone-background-stone-texture-grunge-blue-background-creative-blue-texture-thumbnail.jpg');
     background-size: 100% 100%;
     z-index: -1;
     opacity: 0.1;
@@ -677,14 +677,14 @@ strong {
 
 .margin-container {
     margin-top: 120px !important;
-    color: #E07A5F;
+    color: aliceblue;
     text-align: center;
 }
 
 .custom-table {
     background-color: rgba(0, 0, 0, 0.8);
     border-collapse: collapse;
-    color: #E07A5F;
+    color: aliceblue;
 }
 
 .index-table-margin {
@@ -704,12 +704,12 @@ strong {
 
 .margin-class {
     margin-top: 120px;
-    color: #E07A5F;
+    color: aliceblue;
 }
 
 .show-all-customers {
     margin-top: 30px;
-    color: #E07A5F;
+    color: aliceblue;
 }
 
 .green-color {
@@ -739,7 +739,7 @@ strong {
 }
 
 .footer-text {
-    color: #E07A5F;
+    color: aliceblue;
     margin-left: 110px;
 }
 
@@ -748,7 +748,7 @@ strong {
 }
 
 .pagination-button {
-    background-color: #E07A5F;
+    background-color: aliceblue;
     color: black;
 }
 
@@ -815,27 +815,28 @@ modal {
     gap: 20px;
 }
 
-.image-container {
-    position: relative;
-    text-align: center;
-}
-
-.text-container {
-    position: absolute;
-    bottom: -30px;
-    left: 0;
-    right: 0;
-    background-color: #A04f95;
-    padding: 5px 10px; 
-}
-
-.image-crop {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+.card {
+    display: inline-block;
+    max-width: 300px;
+    margin: 20px;
     overflow: hidden;
-    margin: 10px auto;
-    display: block;
+    background-color: transparent;
+    border: none;
+}
+
+.card-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-text {
+    background-color: #A04f95;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .landing-headline {
