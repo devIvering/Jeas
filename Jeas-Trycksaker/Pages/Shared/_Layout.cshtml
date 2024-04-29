@@ -51,10 +51,13 @@ Bootstrap 5 Form Pack Template
 
                     <div class="col-lg-12 col-12 d-flex align-items-center">
                         <a class="site-header-text d-flex justify-content-center align-items-center me-auto" asp-page="/Index">
-
                             <span>
                                 Jeas Trycksaker
                             </span>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-regular fa-envelope"></i>
+                            <i class="fa-brands fa-instagram"></i>
+
                         </a>
                         <div>
                         </div>
@@ -76,21 +79,30 @@ Bootstrap 5 Form Pack Template
                 <nav>
                     <ul>
 
-                        <li class="nav-item burger-item">
-                            <a asp-page="/Categories/Clothes" class="custom-btn custom-border-btn btn">Kläder</a>
+                        <li>
+                            <a asp-page="/Categories/Clothes" class="custom-btn custom-border-btn btn burger-item">Kläder</a>
                         </li>
 
-                        <li class="nav-item burger-item">
-                            <a asp-page="/Categories/Cups" class="custom-btn custom-border-btn btn">Koppar</a>
+                        <li>
+                            <a asp-page="/Categories/Cups" class="custom-btn custom-border-btn btn burger-item">Koppar</a>
                         </li>
 
-                        <li class="nav-item burger-item">
-                            <a asp-page="/Categories/Kids" class="custom-btn custom-border-btn btn">Barn</a>
+                        <li>
+                            <a asp-page="/Categories/Kids" class="custom-btn custom-border-btn btn burger-item">Barn</a>
                         </li>
 
-                        <li class="nav-item burger-item">
-                            <a asp-page="/Categories/Others" class="custom-btn custom-border-btn btn">Övrigt</a>
+                         <li>
+                            <a asp-page="/Categories/Tygkasse" class="custom-btn custom-border-btn btn burger-item">Tygkassar</a>
                         </li>
+
+                        <li>
+                            <a asp-page="/Categories/Season" class="custom-btn custom-border-btn btn burger-item">Högtider</a>
+                        </li>
+
+                        <li>
+                            <a asp-page="/Categories/Others" class="custom-btn custom-border-btn btn burger-item">Övrigt</a>
+                        </li>
+
                     </ul>
                 </nav>
             </div>

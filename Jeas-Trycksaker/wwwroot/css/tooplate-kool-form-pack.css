@@ -15,8 +15,8 @@ Bootstrap 5 Form Pack Template
 :root {
     --body-bg-color: #181717;
     --white-color: #ffffff;
-    --primary-color: #191970;
-    --secondary-color: #E07A5F;
+    --primary-color: aliceblue;
+    --secondary-color: aliceblue;
     --section-bg-color: #f0f8ff;
     --custom-btn-bg-color: #191970;
     --custom-btn-bg-hover-color: #F2CC8F;
@@ -576,6 +576,7 @@ strong {
 
 .burger-item {
     margin-top: 10px;
+    width: 200px !important;
 }
 
 .index-headers-text {
@@ -805,32 +806,107 @@ modal {
 }
 
 .bg-blue {
-    background-color: royalblue;
-}
-
-.image-crop {
-    max-width: 70%;
-    height: auto;
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 10px;
+    background-color: #1d1d79;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    margin-left: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
 }
 
-.big-image {
-    max-width: 65%;
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.text-container {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    background-color: #A04f95;
+    padding: 5px 10px; 
+}
+
+.image-crop {
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
     overflow: hidden;
-    margin: 10px;
+    margin: 10px auto; /* Centrera bilder horisontellt */
+    display: block;
 }
 
+.landing-headline {
+    color: aliceblue;
+    text-align: center;
+}
 
+.landing-p {
+    color: aliceblue;
+    margin-top: 50px;
+}
 
+/*.background-image-1 {
+    background-image: url('/images/kopp-loveyou.jpg');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    border-radius: var(--border-radius-small);
+    height: 250px;
+    width: 100%;
+    margin-top: 35px;
+    display: inline-block;
+    z-index: 1;
+}
 
+.background-image-2 {
+    background-image: url('/images/kopp-elefant.jpeg');
+    background-size: 90%;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: var(--border-radius-small);
+    height: 250px;
+    width: 100%;
+    margin-top: 35px;
+    display: inline-block;
+    z-index: 1;
+}
+
+.background-image-3 {
+    background-image: url('/images/kopp-lejon.jpeg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: var(--border-radius-small);
+    height: 250px;
+    width: 100%;
+    margin-top: 35px;
+    display: inline-block;
+    z-index: 1;
+}
+
+@keyframes buildUp {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0.7;
+    }
+}*/
+
+.image-1, .image-2, .image-3 {
+    height: 300px;
+    width: 230px;
+    border-radius: 20px;
+}
+
+.image-flex {
+    gap: 40px;
+    justify-content: center;
+}
