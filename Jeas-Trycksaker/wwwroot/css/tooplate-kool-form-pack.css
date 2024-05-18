@@ -584,7 +584,7 @@ strong {
     padding: 25px;
     font-size: 28px;
     border: 1px solid white;
-    background-color: #0c6915
+    background-color: #3e74c9;
 }
 
 .contact-margin-class {
@@ -919,4 +919,34 @@ modal {
 
 .left-margin {
     margin-left: 20px;
+}
+
+@media (max-width: 992px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .card {
+        display: inline-block;
+        width: 250px;
+        height: 100%;
+        margin: 20px;
+        overflow: hidden;
+        background-color: transparent;
+        border: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .social-icon {
+        display: none;
+    }
 }
