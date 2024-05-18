@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Jeas Trycksaker</title>
+    <title>Jeas</title>
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,7 +52,7 @@ Bootstrap 5 Form Pack Template
                     <div class="col-lg-12 col-12 d-flex align-items-center">
                         <a class="site-header-text d-flex justify-content-center align-items-center me-auto" asp-page="/Index">
                             <span>
-                                Jeas Trycksaker
+                                Jeas
                             </span>
                             <div class="social-icon">
                                 <a href="https://www.facebook.com/profile.php?id=100062972182465">
@@ -61,11 +61,11 @@ Bootstrap 5 Form Pack Template
                                 <a href="mailto:jeanette.ivering@gmail.com">
                                     <i class="fa-regular fa-envelope"></i>
                                 </a>
-                                
+
                                 <a href="#">
                                     <i class="fa-brands fa-instagram"></i>
                                 </a>
-                                
+
                             </div>
 
                         </a>
@@ -78,15 +78,18 @@ Bootstrap 5 Form Pack Template
             </div>
         </header>
 
-
         <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
             <div class="offcanvas-header">
                 <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
 
-            <div class="offcanvas-body d-flex flex-column justify-content-center align-items-center">
+            <div class="offcanvas-body d-flex flex-column justify-content-center align-items-center style="text-align: center;">
                 <nav>
                     <ul>
+                        <li>
+                            <h3 class="header-burger-item">Trycksaker</h3>
+                            <hr />
+                        </li>
 
                         <li>
                             <a asp-page="/Categories/Clothes" class="custom-btn custom-border-btn btn burger-item">Kläder</a>
@@ -111,7 +114,23 @@ Bootstrap 5 Form Pack Template
                         <li>
                             <a asp-page="/Categories/Others" class="custom-btn custom-border-btn btn burger-item">Övrigt</a>
                         </li>
-
+                        <li>
+                            <h3 class="header-burger-item">Virkning</h3>
+                            <hr />
+                        </li>
+                        <li>
+                            <a asp-page="/Virkning/Mjukisdjur" class="custom-btn custom-border-btn btn burger-item">Mjukis djur</a>
+                        </li>
+                        <li>
+                            <a asp-page="/Virkning/Napphållare" class="custom-btn custom-border-btn btn burger-item">Napp hållare</a>
+                        </li>
+                        <li>
+                            <h3 class="header-burger-item">Betong</h3>
+                            <hr />                      
+                        </li>
+                        <li>
+                            <a asp-page="/Betong/Blandat" class="custom-btn custom-border-btn btn burger-item">Blandat</a>
+                        </li>
                     </ul>
                 </nav>
             </div>

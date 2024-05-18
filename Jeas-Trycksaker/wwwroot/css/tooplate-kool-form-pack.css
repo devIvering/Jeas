@@ -23,8 +23,8 @@ Bootstrap 5 Form Pack Template
     --dark-color: #000000;
     --p-color: #ffffff;
     --link-hover-color: #F2CC8F;
-    --body-font-family: 'Poppins', sans-serif;
-    --heading-font-family: 'Unbounded', sans-serif;
+    --body-font-family: sans-serif;
+    --heading-font-family: sans-serif;
     --h1-font-size: 62px;
     --h2-font-size: 36px;
     --h3-font-size: 28px;
@@ -269,8 +269,7 @@ strong {
 
         .offcanvas nav ul li a {
             color: var(--white-color);
-            font-family: var(--heading-font-family);
-            font-size: var(--p-font-size);
+            font-family: sans-serif;
             font-weight: var(--font-weight-medium);
             display: inline-block;
             margin-top: 5px;
@@ -279,7 +278,8 @@ strong {
 
             .offcanvas nav ul li a:hover,
             .offcanvas nav ul li a.active {
-                color: var(--link-hover-color);
+                color: blue;
+                font-weight: var(--font-weight-bold);
             }
 
 
@@ -576,7 +576,11 @@ strong {
 
 .burger-item {
     margin-top: 10px;
-    width: 200px !important;
+    width: 150px !important;
+}
+
+.header-burger-item {
+        margin-left: 20px;
 }
 
 .index-headers-text {
